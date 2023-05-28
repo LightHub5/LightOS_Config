@@ -1,7 +1,7 @@
 export const phrases = [
     {
-        phrase: 'Typescript is my darling!',
-        authorId: '652511968145702962',
-        author: 'bouf.'
+        phrase: 'Это не баг, это фича',
+        authorId: '1086308186644021309',
+        author: 'Wayment'
     }
 ]

@@ -3,7 +3,7 @@ export const statuses = {
     changeTime: 5000,
     status: [
         {
-            name: 'Боуф лучший!',
+            name: 'Лучшее IT сообщество - LightHub.',
             type: ActivityType.Watching
         },
         ]

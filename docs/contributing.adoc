@@ -39,12 +39,12 @@
 === Формат статуса в `{statuses}`
 
 	…
-	status: [{ name: '(1)',
-	type: ActivityType.(2) }],
+	{ name: '(1)',
+	type: ActivityType.(2) },
 
 [start=1]
 	. текст статуса;
-	. `discord.js` тип статуса, подробнее https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType#Index[здесь];
+	. `discord.js` тип статуса, выберите https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType#Index[здесь];
 
 Статус отображается под никнеймом Бота в списке участников, а также в его профиле.
 
@@ -59,7 +59,7 @@
 
 [start=3]
 	. текст сообщения;
-	. идентификационный номер Дискорд Пользователя, получите руководствуясь этой https://support.discord.com/hc/ru/articles/206346498[статье];
+	. ИД Дискорд Пользователя, получите руководствуясь этой https://support.discord.com/hc/ru/articles/206346498[статье];
 	. подпись к сообщению.
 
 ---

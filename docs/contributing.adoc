@@ -1,4 +1,4 @@
-include::attributes.ad[]
+include::attributes.adoc[]
 
 
 :idarticle: https://support.discord.com/hc/ru/articles/206346498

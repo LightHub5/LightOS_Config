@@ -1,9 +1,24 @@
-include::attributes.adoc[]
+// код приглашения на сервер
+:invitecode: 37QgjZrVFN
+
+// ин сервера
+:id: 1027190386743050251
+
+// ин бота
+:botid: 1076216587364876469
 
 
-Дискорд Бот {bot}[`{botid}`] сервера {invite}[`{id}`] переодически устанавливает и отправляет случайные https://support.discord.com/hc/articles/360035407531[статус] из `{statuses}` и сообщение из `{phrases}`. Администрация принимает добавления удовлетворяющие Условия.
+:discord: https://discord
+:profiles: .com/users/
+:invites: .gg/
+
+:invite: {discord}{invites}{code}
+:bot: {discord}{profiles}{botid}
+
+:statuses: link:../Statuses.ts[Statuses.ts]
+:phrases: link:../Phrases.ts[Phrases.ts]
+
+
+Дискорд Бот {bot}[`{botid}`] сервера {invite}[`{id}`] переодически устанавливает и отправляет случайные https://support.discord.com/hc/articles/360035407531[статус] из `{statuses}` и сообщение из `{phrases}`. Администрация принимает добавления удовлетворяющие Условия в → link:contributing.adoc[`contributing.adoc`].
 
 // вместо [`{id}`] можно было бы вставлять название из `github.com/lighthub5/lighthub5/attributes.ad`, а так просто непоколебимые времени циферки
-
-
-include::contributing.adoc[]

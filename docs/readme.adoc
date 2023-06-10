@@ -1,0 +1,22 @@
+// код приглашения на сервер
+:invitecode: 37QgjZrVFN
+
+// ин сервера
+:id: 1027190386743050251
+
+// ин бота
+:botid: 1076216587364876469
+
+
+:discord: https://discord
+:profiles: .com/users/
+:invites: .gg/
+
+:invite: {discord}{invites}{code}
+:bot: {discord}{profiles}{botid}
+
+:statuses: link:../Statuses.ts[Statuses.ts]
+:phrases: link:../Phrases.ts[Phrases.ts]
+
+
+Дискорд Бот {bot}[`{botid}`] сервера {invite}[`{id}`] переодически устанавливает и отправляет случайные статус из `{statuses}` и сообщение из `{phrases}`. Администрация принимает добавления удовлетворяющие Условия → link:contributing.adoc[*`contributing.adoc`*].

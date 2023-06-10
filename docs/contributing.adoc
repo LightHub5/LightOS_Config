@@ -1,0 +1,67 @@
+// код приглашения на сервер
+:invitecode: 37QgjZrVFN
+
+// ин сервера
+:id: 1027190386743050251
+
+// ин бота
+:botid: 1076216587364876469
+
+
+:discord: https://discord
+:profiles: .com/users/
+:invites: .gg/
+
+:invite: {discord}{invites}{code}
+:bot: {discord}{profiles}{botid}
+
+:statuses: link:../Statuses.ts[Statuses.ts]
+:phrases: link:../Phrases.ts[Phrases.ts]
+
+
+:idarticle: https://support.discord.com/hc/ru/articles/206346498
+
+
+== Условия приёма запроса на добавление
+
+[upperroman]
+
+. автор является участником сервера {invite}[`{id}`];
+
+. не нарушает Условия использования Дискорда и Правила данного сервера;
+
+. удовлетворяет форматам далее, где вместо круглых скобок текст соответствующий содержанию, а в конце запятая (`,`);
+
+. если добавление во `{phrases}`, то содержит поле `authorId` с идентификатором Дискорд Аккаунта автора, действительно ему принадлежащему.
+
+
+[#statuses]
+=== Формат статуса в `{statuses}`
+
+	…
+	{ name: '(1)',
+	type: ActivityType.(2) },
+
+[start=1]
+	. текст статуса;
+	. `discord.js` тип статуса, выберите https://discord-api-types.dev/api/discord-api-types-v10/enum/ActivityType#Index[здесь];
+
+Статус отображается под никнеймом Бота в списке участников, а также в его профиле.
+
+
+[#phrases]
+=== Формат сообщения во `{phrases}`
+
+	…
+	{ phrase: '(3)',
+	authorId: '(4)',
+	author: '(5)' },
+
+[start=3]
+	. текст сообщения;
+	. ИД Дискорд Пользователя, получите руководствуясь этой https://support.discord.com/hc/ru/articles/206346498[статье];
+	. подпись к сообщению.
+
+---
+
+*Ориентируйтесь на примеры непосредственно в файлах.*

@@ -6,5 +6,9 @@ export const statuses = {
             name: 'Лучшее IT сообщество - LightHub.',
             type: ActivityType.Watching
         },
+        {
+            name: 'когда обновление?',
+            type: ActivityType.Listening
+        },
         ]
 }
